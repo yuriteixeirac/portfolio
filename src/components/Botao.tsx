@@ -2,8 +2,9 @@ import { CSSProperties } from "react";
 
 type BotaoProps = {
   content: string;
-  href: string;
+  href?: string;
   color: string;
+  download?: string;
 };
 
 export default function Botao(props: BotaoProps) {
@@ -15,6 +16,7 @@ export default function Botao(props: BotaoProps) {
         } as CSSProperties
       }
       href={props.href}
+      download
       className="botao text-white px-6 py-2 shadow-(--box-shadow) font-semibold border-2 border-black"
     >
       {props.content}

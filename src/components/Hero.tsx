@@ -1,5 +1,4 @@
 import borzoi from "../assets/dog.jpg";
-import downloadSvg from "../assets/download.svg";
 import Botao from "./Botao";
 
 export default function Hero() {
@@ -33,7 +32,7 @@ export default function Hero() {
             color="var(--primary)"
           />
           <Botao
-            href="https://github.com/yuriteixeirac/"
+            href="./CURRICULO.tex"
             content="Currículo"
             color="var(--secondary)"
           />
