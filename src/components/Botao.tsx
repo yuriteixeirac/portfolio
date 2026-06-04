@@ -16,8 +16,9 @@ export default function Botao(props: BotaoProps) {
         } as CSSProperties
       }
       href={props.href}
+      target="_blank"
       download
-      className="botao text-white px-6 py-2 shadow-(--box-shadow) font-semibold border-2 border-black"
+      className="botao text-white text-center px-6 py-2 shadow-(--md-box-shadow) font-semibold border-2 border-black"
     >
       {props.content}
     </a>

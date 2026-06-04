@@ -3,13 +3,14 @@
 
 :root {
     --smooth-white: #fffdf7;
-    --box-shadow: 5px 5px 0 0 #000;
+    --md-box-shadow: 5px 5px 0 0 #000;
+    --lg-box-shadow: 10px 10px 0 0 #000;
 
-    --primary: #663399;
-    --secondary: #0077b5;
+    --bold-yellow: #ffd23f;
+    --coral-pink: #ff6b6b;
 }
 
 body {
-    font-family: "Plus Jakarta Sans";
-    background-color: #fffdf7;
+    font-family: "Sora";
+    background-color: var(--bold-yellow);
 }
