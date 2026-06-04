@@ -3,6 +3,7 @@
 
 :root {
     --smooth-white: #fffdf7;
+    --sm-box-shadow: 2.5px 2.5px 0 0 #000;
     --md-box-shadow: 5px 5px 0 0 #000;
     --lg-box-shadow: 10px 10px 0 0 #000;
 
@@ -13,4 +14,6 @@
 body {
     font-family: "Sora";
     background-color: var(--bold-yellow);
+    color: #000;
+    hyphens: auto;
 }
