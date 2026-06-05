@@ -6,7 +6,7 @@ type ProjetoCardProps = {
   descricao: string;
   tecnologias: string[];
   demonstracao: string;
-  background: string;
+  cor: string;
 };
 
 export default function ProjetoCard(props: ProjetoCardProps) {
@@ -15,7 +15,7 @@ export default function ProjetoCard(props: ProjetoCardProps) {
       className="flex flex-col justify-between border-2 shadow-(--md-box-shadow) p-4 gap-2 max-w-xs"
       style={
         {
-          backgroundColor: props.background,
+          backgroundColor: props.cor,
         } as CSSProperties
       }
     >
@@ -26,7 +26,7 @@ export default function ProjetoCard(props: ProjetoCardProps) {
         </p>
       </div>
 
-      <div className="flex flex-col gap-3">
+      {/*<div className="flex flex-col gap-3">
         <div className="flex flex-wrap gap-x-2 gap-y-1 mt-4 items-end justify-center">
           {props.tecnologias.map((tech) => (
             <span
@@ -36,10 +36,10 @@ export default function ProjetoCard(props: ProjetoCardProps) {
               {tech}
             </span>
           ))}
-        </div>
+        </div>*/}
 
-        <Botao content="Ver código" href={props.demonstracao} color="#FF4F00" />
-      </div>
+      {/*</div>*/}
+      <Botao content="Ver código" href={props.demonstracao} color="#FF4F00" />
     </div>
   );
 }

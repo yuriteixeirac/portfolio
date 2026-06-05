@@ -3,7 +3,10 @@ import Botao from "./Botao";
 
 export default function Hero() {
   return (
-    <div id="hero" className="flex my-8 text-xl max-w-5xl m-auto p-12 mb-48">
+    <section
+      id="hero"
+      className="flex my-8 text-xl max-w-5xl m-auto p-12 mb-48"
+    >
       <div id="about-me" className="flex flex-col justify-between pr-8">
         <div className="flex flex-col gap-4 mb-6">
           <div>
@@ -32,6 +35,6 @@ export default function Hero() {
       <div id="profile" className="border-3 shadow-(--lg-box-shadow) h-fit">
         <img src={borzoi} />
       </div>
-    </div>
+    </section>
   );
 }

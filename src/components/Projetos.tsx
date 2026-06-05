@@ -3,7 +3,7 @@ import { projetos } from "../../data/projetos";
 
 export default function Projetos() {
   return (
-    <div className="flex gap-8 justify-center mb-96">
+    <section id="projetos" className="flex gap-8 justify-center mb-48">
       <div className="mx-auto w-fit">
         <h2 className="text-2xl font-bold bg-(--coral-pink) px-3 py-2 shadow-(--sm-box-shadow) border-2 inline-block p-1 mb-2">
           Projetos
@@ -14,7 +14,7 @@ export default function Projetos() {
           documentados no GitHub para pronto uso.
         </p>
 
-        <div className="flex gap-8">
+        <div className="flex gap-8 justify-between">
           {projetos.map((data) => {
             return (
               <ProjetoCard
@@ -22,12 +22,12 @@ export default function Projetos() {
                 descricao={data.descricao}
                 tecnologias={data.tecnologias}
                 demonstracao={data.demonstracao}
-                background={data.background}
+                cor={data.cor}
               />
             );
           })}
         </div>
       </div>
-    </div>
+    </section>
   );
 }
