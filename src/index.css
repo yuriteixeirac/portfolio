@@ -21,3 +21,9 @@ body {
     color: #000;
     hyphens: auto;
 }
+
+p {
+    hyphens: none;
+    word-break: normal;
+    overflow-wrap: normal;
+}

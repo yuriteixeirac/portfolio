@@ -16,9 +16,9 @@ export default function Hero() {
             <i className="opacity-70 block">Desenvolvedor full-stack</i>
           </div>
           <p className="text-2xl">
-            Desenvolvedor Full-Stack e analista em formação, focado em Python,
-            Flask & Django, JavaScript, Node.js, React e WordPress, com
-            experiência acadêmica e profissional.
+            Desenvolvedor Full Stack em formação, focado em criar aplicações
+            web, APIs e automações com Python, Flask/Django, JavaScript,
+            Node.js, React e WordPress.
           </p>
         </div>
 

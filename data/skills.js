@@ -4,7 +4,7 @@ export const skills = [
     tecnologias: ["Python", "JavaScript", "TypeScript", "PHP", "Java"],
   },
   {
-    area: "Frameworks e desenvolvimento web",
+    area: "Web e frameworks",
     tecnologias: [
       "Django",
       "Flask",
@@ -30,7 +30,7 @@ export const skills = [
       "Microsserviços",
       "Event Driven Architecture",
       "Clean Code",
-      "Solid",
+      "SOLID",
     ],
   },
   {
