@@ -7,6 +7,7 @@ type ProjetoCardProps = {
   tecnologias: string[];
   demonstracao: string;
   cor: string;
+  imagem: string;
 };
 
 export default function ProjetoCard(props: ProjetoCardProps) {
@@ -23,24 +24,12 @@ export default function ProjetoCard(props: ProjetoCardProps) {
         <h2 className="mb-2 border-b-2 text-xl font-semibold sm:text-2xl">
           {props.nome}
         </h2>
-        <p className="break-words leading-relaxed hyphens-none">
-          {props.descricao}
-        </p>
+        <img
+          className="border-2 shadow-(--sm-box-shadow) my-2"
+          src={props.imagem}
+        />
+        <p className="leading-relaxed hyphens-none">{props.descricao}</p>
       </div>
-
-      {/*<div className="flex flex-col gap-3">
-        <div className="flex flex-wrap gap-x-2 gap-y-1 mt-4 items-end justify-center">
-          {props.tecnologias.map((tech) => (
-            <span
-              key={tech}
-              className="bg-white border-2 border-black px-2 py-1 text-sm font-bold shadow-(--sm-box-shadow)"
-            >
-              {tech}
-            </span>
-          ))}
-        </div>*/}
-
-      {/*</div>*/}
       <Botao content="Ver código" href={props.demonstracao} color="#FF4F00" />
     </div>
   );

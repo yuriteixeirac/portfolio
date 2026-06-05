@@ -15,7 +15,11 @@ export default function Header() {
         </ul>
       </nav>
 
-      <a href="" className="shrink-0">
+      <a
+        href="https://github.com/yuriteixeirac"
+        target="_blank"
+        className="shrink-0"
+      >
         <img src={githubIcon} className="w-7 p-0 sm:w-8" />
       </a>
     </section>

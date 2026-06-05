@@ -2,7 +2,10 @@ import { contatos } from "../../data/contatos";
 
 export default function Contato() {
   return (
-    <section id="contato" className="flex justify-center px-4 py-20 sm:px-6 md:py-24 lg:px-8 lg:py-28">
+    <section
+      id="contato"
+      className="flex justify-center px-4 py-20 sm:px-6 md:py-24 lg:px-8 lg:py-28"
+    >
       <div className="w-full max-w-5xl border-2 border-black bg-white shadow-(--md-box-shadow)">
         <div className="grid grid-cols-1 md:grid-cols-[1.2fr_1fr]">
           <div className="min-w-0 bg-(--coral-pink) p-5 sm:p-8">
