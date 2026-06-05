@@ -2,12 +2,12 @@ import { skills } from "../../data/skills";
 
 export default function Skills() {
   return (
-    <div className="flex flex-col items-center w-full mb-48">
+    <section className="flex flex-col items-center w-full mb-36">
       <div className="max-w-5xl">
         <h2 className="text-2xl font-bold bg-(--coral-pink) px-3 py-2 shadow-(--sm-box-shadow) border-2 inline-block p-1 mb-2">
           Habilidades
         </h2>
-        <table className="border-2 shadow-(--md-box-shadow) max-w-4xl bg-white">
+        <table className="border-2 shadow-(--md-box-shadow) max-w-5xl bg-white">
           <thead className="bg-black text-white">
             <tr>
               <th className="border-2 border-black p-3 text-left text-lg">
@@ -40,6 +40,6 @@ export default function Skills() {
           </tbody>
         </table>
       </div>
-    </div>
+    </section>
   );
 }

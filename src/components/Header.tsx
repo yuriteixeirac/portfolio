@@ -9,9 +9,9 @@ export default function Header() {
     >
       <nav>
         <ul className="flex gap-16">
-          <NavItem href="" label="Home" />
+          <NavItem href="#" label="Home" />
           <NavItem href="#sobre" label="Sobre" />
-          <NavItem href="#projetos" label="Projetos" />
+          <NavItem href="#contato" label="Contatos" />
         </ul>
       </nav>
 
