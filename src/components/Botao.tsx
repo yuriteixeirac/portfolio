@@ -18,7 +18,7 @@ export default function Botao(props: BotaoProps) {
       href={props.href}
       target="_blank"
       download
-      className="botao text-white text-center px-6 py-2 shadow-(--md-box-shadow) font-semibold border-2 border-black"
+      className="botao inline-block border-2 border-black px-5 py-2 text-center text-sm font-semibold text-white shadow-(--md-box-shadow) sm:px-6 sm:text-base"
     >
       {props.content}
     </a>

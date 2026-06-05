@@ -12,7 +12,7 @@ type ProjetoCardProps = {
 export default function ProjetoCard(props: ProjetoCardProps) {
   return (
     <div
-      className="flex flex-col justify-between border-2 shadow-(--md-box-shadow) p-4 gap-2 max-w-xs"
+      className="flex min-w-0 flex-col justify-between gap-3 border-2 p-4 shadow-(--md-box-shadow)"
       style={
         {
           backgroundColor: props.cor,
@@ -20,8 +20,10 @@ export default function ProjetoCard(props: ProjetoCardProps) {
       }
     >
       <div>
-        <h2 className="text-2xl font-semibold border-b-2 mb-2">{props.nome}</h2>
-        <p className="leading-relaxed break-word hyphens-none">
+        <h2 className="mb-2 border-b-2 text-xl font-semibold sm:text-2xl">
+          {props.nome}
+        </h2>
+        <p className="break-words leading-relaxed hyphens-none">
           {props.descricao}
         </p>
       </div>

@@ -3,9 +3,12 @@ import AboutCard from "./AboutCard";
 
 export default function About() {
   return (
-    <section id="sobre" className="grid grid-cols-2 gap-12 m-auto mx-32 mb-48">
-      <div className="border-r-2 p-6 items-center">
-        <h2 className="text-3xl font-semibold mb-2 pb-1 bg-(--coral-pink) inline-block border-2 shadow-(--sm-box-shadow) px-3 py-2">
+    <section
+      id="sobre"
+      className="mx-auto mb-24 grid max-w-5xl grid-cols-1 gap-8 px-4 sm:px-6 md:mb-36 lg:mb-48 lg:grid-cols-2 lg:gap-12 lg:px-8 xl:px-0"
+    >
+      <div className="min-w-0 border-b-2 p-4 pb-8 sm:p-6 lg:border-b-0 lg:border-r-2">
+        <h2 className="mb-2 inline-block border-2 bg-(--coral-pink) px-3 py-2 text-2xl font-semibold shadow-(--sm-box-shadow) sm:text-3xl">
           Quem sou eu?
         </h2>
         <div className="flex flex-col gap-4">
@@ -36,6 +39,7 @@ export default function About() {
         {experiencias.map((xp) => {
           return (
             <AboutCard
+              key={xp.nome}
               nome={xp.nome}
               descricao={xp.descricao}
               onde={xp.onde}

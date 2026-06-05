@@ -11,19 +11,19 @@ type AboutCardProps = {
 export default function AboutCard(props: AboutCardProps) {
   return (
     <div
-      className="flex flex-col border-2 p-5 shadow-(--md-box-shadow)"
+      className="flex min-w-0 flex-col gap-3 border-2 p-4 shadow-(--md-box-shadow) sm:p-5"
       style={
         {
           backgroundColor: props.cor,
         } as CSSProperties
       }
     >
-      <div className="flex justify-between">
-        <div>
-          <h2 className="text-xl font-semibold">{props.nome}</h2>
-          <p className="opacity-70">{props.onde}</p>
+      <div className="flex flex-col gap-2 sm:flex-row sm:justify-between">
+        <div className="min-w-0">
+          <h2 className="text-lg font-semibold sm:text-xl">{props.nome}</h2>
+          <p className="text-sm opacity-70">{props.onde}</p>
         </div>
-        <p>{props.data}</p>
+        <p className="shrink-0 text-sm sm:text-base">{props.data}</p>
       </div>
       <p>{props.descricao}</p>
     </div>
