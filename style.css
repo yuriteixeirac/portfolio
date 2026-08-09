@@ -498,4 +498,8 @@ footer {
     .footer-socials {
         flex-direction: column;
     }
+
+    #remove-on-mobile {
+        display: none;
+    }
 }
