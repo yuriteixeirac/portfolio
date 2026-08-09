@@ -51,6 +51,7 @@ header {
     grid-template-columns: 1fr auto;
     align-items: center;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    min-height: 90px;
 }
 
 header a {
@@ -59,10 +60,6 @@ header a {
 
 header a:hover {
     text-decoration: underline;
-}
-
-header #logo {
-    width: 100px;
 }
 
 header #logo > img {
