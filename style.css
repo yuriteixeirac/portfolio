@@ -191,6 +191,10 @@ section#sobre-mim #xp-wrapper h2 {
     grid-template-columns: 1fr 1fr;
 }
 
+.xp-entry .xp-info .xp-title p {
+    font-weight: 600;
+}
+
 .xp-data {
     text-align: right;
     opacity: 60%;
