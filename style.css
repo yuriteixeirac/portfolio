@@ -41,6 +41,11 @@ h2 {
     font-size: clamp(28px, 3vw, 40px);
 }
 
+section[id],
+main[id] {
+    scroll-margin-top: 90px; /* ajuste pro tamanho real do seu header */
+}
+
 /* ========================== HEADER ========================== */
 header {
     display: grid;
