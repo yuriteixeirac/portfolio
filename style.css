@@ -15,6 +15,7 @@ html {
     scroll-behavior: smooth;
     margin-top: 0px !important;
     top: 0px !important;
+    zoom: 0.85;
 }
 
 body {
@@ -24,7 +25,7 @@ body {
 }
 
 section {
-    padding: 0 clamp(1.5rem, 6vw, 8rem);
+    padding: 0 clamp(2.5rem, 11vw, 15rem);
 }
 
 a {
@@ -90,7 +91,7 @@ main {
     display: grid;
     grid-template-columns: 1fr 1fr;
     place-items: center;
-    padding: clamp(2.5rem, 4vw, 3.5rem) clamp(2rem, 4vw, 4rem);
+    padding: clamp(2.5rem, 4vw, 3.5rem) clamp(2rem, 9vw, 12rem);
 }
 
 main #headline {
@@ -375,7 +376,7 @@ footer {
 
 @media (max-width: 900px) {
     section {
-        padding: 0 clamp(1.25rem, 4vw, 5rem);
+        padding: 0 clamp(1.75rem, 6vw, 8.5rem);
     }
 
     header {
@@ -401,7 +402,7 @@ footer {
         grid-template-columns: 1fr;
         place-items: center;
         text-align: center;
-        padding: 2.5rem clamp(1.25rem, 4vw, 4rem);
+        padding: 2.5rem clamp(1.5rem, 5vw, 7rem);
     }
 
     main #headline {
@@ -449,7 +450,7 @@ footer {
 
 @media (max-width: 600px) {
     section {
-        padding: 0 1.5rem;
+        padding: 0 2.25rem;
     }
 
     header {
@@ -458,7 +459,7 @@ footer {
     }
 
     main {
-        padding: 2rem 1.5rem;
+        padding: 2rem 1.75rem;
     }
 
     main #info h1 {
